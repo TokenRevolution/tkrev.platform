@@ -1,0 +1,54 @@
+<html>
+  <head><title>TKREV - DAPP </title></head>
+      <style>
+      #Navbar{
+      width: 20%;
+      height: 100%;
+      background: lightblue;
+      float:left;
+      }
+      #Page{
+      width: 80%;
+      height: 100%;
+      background: blue;
+      float:left;
+      }
+      #top{
+      width: 100%;
+      height: 10%;
+      background: black;
+      text-align: right;
+        }
+        li{
+        width: 100%;
+        height: 10%;
+        list-style: none; 
+        }
+        #Connect{
+        width: 20%;
+        height: 80%;
+        margin-top: 0.5%;
+        }
+      </style>
+      <body>
+        <div id="Navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="TLock.html">Token Lock</a></li>
+            <li><a href="LLock.html">Liquidity Lock</a></li>
+            <li><a href="Launch.html">Launchpad</a></li>
+            <li><a href="Fstaking.html">Flexible Staking</a></li>
+            <li><a href="Lstaking.html">Locked Staking</a></li>
+            <li><a href="Ffarming.html">Flexible Farming</a></li>
+            <li><a href="LFarming.html">Locked Farming</a></li>
+            <li><a href="Chart.html">Chart</a></li>
+            <li>TKREV: <a href="http://www.poocoin.com">$ 1.70</a></li>
+          </ul>
+        </div>
+        <div id="Page">
+            <div id="top">
+              <button id="Connect">Connect</button>
+            </div>
+        </div>
+      </body>
+</html>
